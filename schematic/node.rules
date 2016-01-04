@@ -11,25 +11,25 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 152)
+    (start_pass_no 146)
     (layer_rule F.Cu
-      (active on)
-      (preferred_direction vertical)
-      (preferred_direction_trace_costs 1.0)
-      (against_preferred_direction_trace_costs 2.4)
-    )
-    (layer_rule B.Cu
       (active on)
       (preferred_direction horizontal)
       (preferred_direction_trace_costs 1.0)
-      (against_preferred_direction_trace_costs 1.7)
+      (against_preferred_direction_trace_costs 2.0)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.0)
     )
   )
   (rule
-    (width 500.0)
-    (clear 350.2)
-    (clear 250.0 (type smd_to_turn_gap))
-    (clear 87.6 (type smd_smd))
+    (width 250.0)
+    (clear 250.2)
+    (clear 125.0 (type smd_to_turn_gap))
+    (clear 62.6 (type smd_smd))
   )
   (padstack "Via[0-1]_600:400_um"
     (shape
@@ -56,21 +56,21 @@
     (clearance_class default)
     (via_rule default)
     (rule
-      (width 500.0)
+      (width 250.0)
     )
     (circuit 
       (use_layer F.Cu B.Cu)
     )
   )
   (class "kicad_default"
-    GND +3V3 "Net-(C1-Pad2)" "Net-(C3-Pad1)" DTR "Net-(C4-Pad1)" RX TX
+    +3V3 GND "Net-(C1-Pad2)" "Net-(C3-Pad1)" DTR "Net-(C4-Pad1)" RX TX
     PD2 PD3 "Net-(IC1-Pad6)" PB6 PB7 PD5 PD6 PD7
     PB0 "Net-(IC1-Pad15)" "Net-(IC1-Pad16)" "Net-(IC1-Pad17)" "Net-(IC1-Pad18)" "Net-(IC1-Pad19)" PC1 PC2
     PC3 PC4 PC5 "Net-(P2-Pad2)"
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
-      (width 500.0)
+      (width 250.0)
     )
     (circuit 
       (use_layer F.Cu B.Cu)
