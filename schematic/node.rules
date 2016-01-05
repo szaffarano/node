@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 146)
+    (start_pass_no 353)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -64,9 +64,9 @@
   )
   (class "kicad_default"
     +3V3 GND "Net-(C1-Pad2)" "Net-(C3-Pad1)" DTR "Net-(C4-Pad1)" RX TX
-    PD2 PD3 "Net-(IC1-Pad6)" PB6 PB7 PD5 PD6 PD7
-    PB0 "Net-(IC1-Pad15)" "Net-(IC1-Pad16)" "Net-(IC1-Pad17)" "Net-(IC1-Pad18)" "Net-(IC1-Pad19)" PC1 PC2
-    PC3 PC4 PC5 "Net-(P2-Pad2)"
+    PD3 PB6 PB7 PD5 PD6 PD7 PB0 "Net-(IC1-Pad15)"
+    "Net-(IC1-Pad16)" "Net-(IC1-Pad17)" "Net-(IC1-Pad18)" "Net-(IC1-Pad19)" PC1 PC2 PC3 PC4
+    PC5 "Net-(P2-Pad2)" "Net-(IC1-Pad4)" PD4
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule

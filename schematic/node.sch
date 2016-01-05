@@ -399,12 +399,12 @@ Text GLabel 5550 4750 2    39   Input ~ 0
 PD6
 Text GLabel 5550 4850 2    39   Input ~ 0
 PD7
-Text GLabel 5550 4350 2    39   Input ~ 0
-PD2
+Text GLabel 5550 4550 2    39   Input ~ 0
+PD4
 Text GLabel 7970 2320 0    39   Input ~ 0
-PD2
-Text GLabel 7970 2420 0    39   Input ~ 0
 PD3
+Text GLabel 7970 2420 0    39   Input ~ 0
+PD4
 Text GLabel 7970 2520 0    39   Input ~ 0
 PB6
 Text GLabel 7970 2620 0    39   Input ~ 0
@@ -496,9 +496,9 @@ $EndComp
 Wire Wire Line
 	4800 1550 4800 1450
 Wire Wire Line
-	4800 1450 5800 1450
+	4800 1450 5800 1260
 Wire Wire Line
-	5800 1450 5800 4550
+	5800 1260 5800 4350
 Wire Wire Line
 	4700 1550 4700 1350
 Wire Wire Line
@@ -630,8 +630,6 @@ Wire Wire Line
 Wire Wire Line
 	6300 2650 6300 2350
 Wire Wire Line
-	5800 4550 5550 4550
-Wire Wire Line
 	7880 3340 7880 3400
 Wire Wire Line
 	7880 3400 7970 3400
@@ -657,4 +655,6 @@ Wire Wire Line
 Wire Wire Line
 	7150 2310 7280 2310
 Connection ~ 7020 2200
+Wire Wire Line
+	5800 4350 5550 4350
 $EndSCHEMATC
